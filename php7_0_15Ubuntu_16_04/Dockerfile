@@ -54,7 +54,7 @@ ADD custom.default.conf /etc/apache2/sites-enabled/000-default.conf
 
 EXPOSE 80 443
 
-WORKDIR /var/www/html
+WORKDIR /var/www
 
 # RUN rm index.html
 
